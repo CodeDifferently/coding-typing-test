@@ -7,7 +7,7 @@ import { CollectionItem } from 'src/app/collection-item';
   styleUrls: ['./large-action-card.component.css']
 })
 export class LargeActionCardComponent implements OnInit {
-
+  @Input() id: Number;
   @Input() collectionItem: CollectionItem;
 
   constructor() { }
