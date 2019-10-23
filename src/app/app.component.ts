@@ -12,14 +12,14 @@ export class AppComponent {
     subtitle: "Sike Just Playing its okay",
     text: "Naz said this ^",
     link: "somewebsite.com",
-    background: "hi",
+    background: "../assets/img/typingcode.jpg",
   };
   secondItem: CollectionItem = {
     title: "Nafis Loves Angular",
     subtitle: "Sike Just Playing its okay",
     text: "Naz said this ^",
     link: "somewebsite.com",
-    background: "hello"
+    background: "../assets/img/typingcode.jpg"
   };
   
   collectionItems: Array<CollectionItem> = [this.firstItem, this.secondItem];
