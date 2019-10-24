@@ -1,24 +1,27 @@
 <div class="dashboard-container">
     <div class="row">
-        <h1>{{title_1}}</h1>
+        <h3>{{title_1}}</h3>
         <progressbar class="progressbar" [value]="statistics.currentSpeed" width="50px">Current Speed</progressbar>
         <progressbar class="progressbar" [value]="statistics.lastWeekSpeed" width="50px">Last Week</progressbar>
         <progressbar class="progressbar" [value]="statistics.lastMonthsSpeed" width="50px">Last Month</progressbar>
     </div>
     <hr>
     <div class="row">
-        <h1>{{title_2}}</h1>
+        <h3>{{title_2}}</h3>
         <div class="circle-progress">
-            <circle-progress [percent]="5" [radius]="50" [outerStrokeWidth]="8" [innerStrokeWidth]="4"
+            <circle-progress [percent]="5" [radius]="40" [outerStrokeWidth]="8" [innerStrokeWidth]="4"
                 [outerStrokeColor]="'#000000'" [innerStrokeColor]="'#3895D3'" [animation]="true"
                 [animationDuration]="300"></circle-progress>
-            <circle-progress [percent]="30" [radius]="50" [outerStrokeWidth]="8" [innerStrokeWidth]="4"
+            <circle-progress [percent]="30" [radius]="40" [outerStrokeWidth]="8" [innerStrokeWidth]="4"
                 [outerStrokeColor]="'#000000'" [innerStrokeColor]="'#3895D3'" [animation]="true"
                 [animationDuration]="300"></circle-progress>
-            <circle-progress [percent]="13" [radius]="50" [outerStrokeWidth]="8" [innerStrokeWidth]="4"
+            <circle-progress [percent]="13" [radius]="40" [outerStrokeWidth]="8" [innerStrokeWidth]="4"
                 [outerStrokeColor]="'#000000'" [innerStrokeColor]="'#3895D3'" [animation]="true"
                 [animationDuration]="300"></circle-progress>
         </div>
+        <div style="margin-top: 20px; margin-bottom: 15px; font-weight: normal; text-align: center;"><span>Overall
+                Active Practice Time: </span><span style="font-weight: normal; color: rgb(66, 198, 219);">
+                <span><small>13 Minutes</small></span></span></div>
     </div>
     <hr>
     <div class="row">
