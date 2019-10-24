@@ -27,6 +27,7 @@ import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
       outerStrokeColor: "#78C000",
       innerStrokeColor: "#C7E596",
       animationDuration: 300,
+      showSubtitle: false
     }),
     AppRoutingModule
   ],

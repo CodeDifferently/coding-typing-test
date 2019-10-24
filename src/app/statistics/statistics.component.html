@@ -1,23 +1,40 @@
-<div class="container">
+<div class="dashboard-container">
     <div class="row">
-        <h1>{{title}}</h1>
-        <progressbar [value]="statistics.currentSpeed" width="50px">Current Speed</progressbar>
-        <progressbar [value]="statistics.lastWeekSpeed" width="50px">Last Week</progressbar>
-        <progressbar [value]="statistics.lastMonthsSpeed" width="50px">Last Month</progressbar>
+        <h1>{{title_1}}</h1>
+        <progressbar class="progressbar" [value]="statistics.currentSpeed" width="50px">Current Speed</progressbar>
+        <progressbar class="progressbar" [value]="statistics.lastWeekSpeed" width="50px">Last Week</progressbar>
+        <progressbar class="progressbar" [value]="statistics.lastMonthsSpeed" width="50px">Last Month</progressbar>
     </div>
     <hr>
     <div class="row">
-            <circle-progress
-            [percent]="5"
-            [radius]="50"
-            [outerStrokeWidth]="8"
-            [innerStrokeWidth]="4"
-            [outerStrokeColor]="'#78C000'"
-            [innerStrokeColor]="'#C7E596'"
-            [animation]="true"
-            [animationDuration]="300"
-          >something</circle-progress>
+        <h1>{{title_2}}</h1>
+        <div class="circle-progress">
+            <circle-progress [percent]="5" [radius]="50" [outerStrokeWidth]="8" [innerStrokeWidth]="4"
+                [outerStrokeColor]="'#000000'" [innerStrokeColor]="'#3895D3'" [animation]="true"
+                [animationDuration]="300"></circle-progress>
+            <circle-progress [percent]="30" [radius]="50" [outerStrokeWidth]="8" [innerStrokeWidth]="4"
+                [outerStrokeColor]="'#000000'" [innerStrokeColor]="'#3895D3'" [animation]="true"
+                [animationDuration]="300"></circle-progress>
+            <circle-progress [percent]="13" [radius]="50" [outerStrokeWidth]="8" [innerStrokeWidth]="4"
+                [outerStrokeColor]="'#000000'" [innerStrokeColor]="'#3895D3'" [animation]="true"
+                [animationDuration]="300"></circle-progress>
+        </div>
     </div>
+    <hr>
+    <div class="row">
+        <div class="bottom-stats" style="width: 50%; float: left;">
+            <h5>Keyboard Coverage</h5>
+            <div style="color: rgb(242, 199, 107);"><span style="font-size: 2.2em;">14%</span></div>
+        </div>
+        <i class="bottom-stats-separator"></i>
+        <div class="bottom-stats" style="width: 47%; float: right;">
+            <h5>Accuracy</h5>
+            <div style="color: rgb(137, 175, 229);">
+                <span style="font-size: 2.2em;">85%</span>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <!-- Statistics Model

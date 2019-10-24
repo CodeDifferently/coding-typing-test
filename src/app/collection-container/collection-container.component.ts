@@ -32,7 +32,8 @@ export class CollectionContainerComponent implements OnInit {
     accuracy: 14,
     averagePracticeTime: 18
   }
-  
+  @Input() collectionTitle: String;
+
   collectionItems: Array<CollectionItem> = [this.firstItem, this.secondItem];
   constructor() { }
 

@@ -1,8 +1,13 @@
-<ng-container *ngFor="let item of collectionItems; let i = index">
-    <div class="container">
-        <large-action-card id="{{i}}" [collectionItem]="item"></large-action-card>    
-    </div>
+<div class="dashboard-container " >
+    <h1>
+        {{collectionTitle}}
+    </h1>
+    <div class="row">
+            <ng-container *ngFor="let item of collectionItems; let i = index">
     
-</ng-container>
+                    <large-action-card id="{{i}}" [collectionItem]="item"></large-action-card>    
+                
+            </ng-container>
+    </div>
 
-<statistics title="Speed" statistics="statistics"></statistics>
+</div>
