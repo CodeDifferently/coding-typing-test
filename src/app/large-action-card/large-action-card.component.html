@@ -1,16 +1,13 @@
+<div class="col-xs-6">
+    <div id="{{id}}" class="lgcard">
 
-            <div class="row">
-                <div class="col-xs-6">
-                    <div id="{{id}}"class="lgcard">
+        <img src="{{collectionItem.background}}">
 
-                        <img src="{{collectionItem.background}}">
+        <h1>{{collectionItem.title}}</h1>
+        <h4> {{collectionItem.subtitle}}</h4>
+        <p> {{collectionItem.text}}</p>
 
-                        <h1>{{collectionItem.title}}</h1>
-                        <h4> {{collectionItem.subtitle}}</h4>
-                        <p> {{collectionItem.text}}</p>
-
-                        <a href="https://{{collectionItem.link}}"><button type="button"
-                                class="btn btn-primary">{{collectionItem.link}}</button></a>
-                    </div>
-                </div>
-        </div>
+        <a href="https://{{collectionItem.link}}"><button type="button"
+                class="btn btn-primary">{{collectionItem.link}}</button></a>
+    </div>
+</div>
