@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { LargeActionCardComponent } from '../large-action-card/large-action-card.component';
 import { CollectionItem } from '../collection-item';
+import { StatisticsItem } from '../statistics-model';
 @Component({
   selector: 'collection-container',
   templateUrl: './collection-container.component.html',
@@ -21,6 +22,16 @@ export class CollectionContainerComponent implements OnInit {
     link: "somewebsite.com",
     background: "hello"
   };
+  statistics: StatisticsItem = {
+    presentSpeed: 22,
+    lastWeekSpeed: 12,
+    lastMonthsSpeed: 12,
+    currentTimeSpent: 5,
+    weeklyTimeSpent: 0,
+    keyBoardCoverage: 0,
+    accuracy: 14,
+    averagePracticeTime: 18
+  }
   
   collectionItems: Array<CollectionItem> = [this.firstItem, this.secondItem];
   constructor() { }

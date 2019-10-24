@@ -1,7 +1,7 @@
 export interface CollectionItem {
-    title: string;
-    subtitle: string;
-    text: string;
-    background: string;
-    link: string;
+    title: String;
+    subtitle: String;
+    text: String;
+    background: String;
+    link: String;
 }

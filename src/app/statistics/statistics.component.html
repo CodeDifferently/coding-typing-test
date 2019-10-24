@@ -1,1 +1,31 @@
-<p>statistics works!</p>
+<div class="container">
+    <div class="row">
+        <h1>{{title}}</h1>
+        <progressbar [value]="statistics.currentSpeed" width="50px">Current Speed</progressbar>
+        <progressbar [value]="statistics.lastWeekSpeed" width="50px">Last Week</progressbar>
+        <progressbar [value]="statistics.lastMonthsSpeed" width="50px">Last Month</progressbar>
+    </div>
+    <hr>
+    <div class="row">
+            <circle-progress
+            [percent]="5"
+            [radius]="50"
+            [outerStrokeWidth]="8"
+            [innerStrokeWidth]="4"
+            [outerStrokeColor]="'#78C000'"
+            [innerStrokeColor]="'#C7E596'"
+            [animation]="true"
+            [animationDuration]="300"
+          >something</circle-progress>
+    </div>
+</div>
+
+<!-- Statistics Model
+     presentSpeed: Number;
+    lastWeekSpeed: Number;
+    lastMonthsSpeed: Number;
+    currentTimeSpent: Number;
+    weeklyTimeSpent: Number;
+    keyBoardCoverage: Number;
+    accuracy: Number;
+    averagePracticeTime: Number; -->
