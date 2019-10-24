@@ -13,14 +13,14 @@ export class CollectionContainerComponent implements OnInit {
     subtitle: "Sike Just Playing its okay",
     text: "Naz said this ^",
     link: "somewebsite.com",
-    background: "hi",
+    background: "../assets/img/typingcode.jpg",
   };
   secondItem: CollectionItem = {
     title: "Nafis Loves Angular",
     subtitle: "Sike Just Playing its okay",
     text: "Naz said this ^",
     link: "somewebsite.com",
-    background: "hello"
+    background: "../assets/img/typingcode.jpg"
   };
   statistics: StatisticsItem = {
     presentSpeed: 22,
