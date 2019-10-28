@@ -1,4 +1,4 @@
-.lgcard {
+.lgcard  {
     background-color: #f8f8f8;
     border-radius: 3px;
     overflow: hidden;
@@ -7,6 +7,7 @@
     box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
     transition: box-shadow 0.18s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .ed-paper{
     outline: none;
