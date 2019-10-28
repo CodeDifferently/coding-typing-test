@@ -34,7 +34,7 @@ export class CollectionContainerComponent implements OnInit {
   }
   @Input() collectionTitle: String;
 
-  collectionItems: Array<CollectionItem> = [this.firstItem, this.secondItem];
+  collectionItems: Array<CollectionItem> = [this.firstItem, this.secondItem, this.firstItem, this.firstItem,this.firstItem,this.firstItem,this.firstItem,this.firstItem,];
   constructor() { }
 
   ngOnInit() {
