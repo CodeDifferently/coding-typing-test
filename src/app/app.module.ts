@@ -9,7 +9,6 @@ import { StatisticsComponent } from './statistics/statistics.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 
 import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
-import { StatsComponent } from './stats/stats.component';
 import { GameSummaryComponent } from './game-summary/game-summary.component';
 @NgModule({
   declarations: [
@@ -17,8 +16,7 @@ import { GameSummaryComponent } from './game-summary/game-summary.component';
     LargeActionCardComponent,
     CollectionContainerComponent,
     StatisticsComponent,
-    StatsComponent,
-    GameSummaryComponent
+    GameSummaryComponent, 
   ],
   imports: [
     BrowserModule,
