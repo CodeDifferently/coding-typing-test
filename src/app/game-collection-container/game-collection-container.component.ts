@@ -7,12 +7,13 @@ import { GameCollectionItem } from '../game-collection-item';
   styleUrls: ['./game-collection-container.component.css']
 })
 export class GameCollectionContainerComponent implements OnInit {
- gameCollectionItem: GameCollectionItem = {
+
+gameCollectionItem: GameCollectionItem = {
     title: " 1 ",
-    subtitle: "Sike Just Playing its okay",
     link: "somewebsite.com",
     background: "../assets/img/typingcode.jpg",
-    locked:true,     
+    locked:true, 
+    subtitle: "Sike Just Playing its okay",    
   };
   
   @Input() gameCollectionTitle: String;

@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { LargeActionCardComponent } from '../large-action-card/large-action-card.component';
 import { CollectionItem } from '../collection-item';
 import { StatisticsItem } from '../statistics-model';
 @Component({

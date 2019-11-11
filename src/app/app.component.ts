@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { CollectionItem } from 'src/app/collection-item';
 
 @Component({
   selector: 'app-root',
