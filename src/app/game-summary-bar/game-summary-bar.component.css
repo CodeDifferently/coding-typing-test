@@ -1,0 +1,21 @@
+.game_summary_value {
+    font-weight: bold;
+}
+
+.game_summary {
+    position: absolute;
+    z-index: 2;
+    margin-top: -30px;
+    font-size: 15px;
+    color: #555;
+    background: rgba(255,255,255,0.3);
+    padding: 3px 10px 3px 15px;
+    border-radius: 6px;
+}
+
+.game_summary_sep {
+    color: rgba(1,1,1,0.2);
+    display: inline-block;
+    margin: 0 10px;
+    cursor: default;
+}

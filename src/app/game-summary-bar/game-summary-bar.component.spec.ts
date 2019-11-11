@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GameSummaryComponent } from './game-summary.component';
+import { GameSummaryComponent } from './game-summary-bar.component';
 
 describe('GameSummaryComponent', () => {
   let component: GameSummaryComponent;
