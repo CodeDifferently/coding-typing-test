@@ -10,13 +10,17 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 
 import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 import { GameSummaryComponent } from './game-summary-bar/game-summary-bar.component';
+import { LessonPlanDashboardComponent } from './lesson-plan-dashboard/lesson-plan-dashboard.component';
+import { GamePageComponent } from './game-page/game-page.component';
 @NgModule({
   declarations: [
     AppComponent,
     LargeActionCardComponent,
     CollectionContainerComponent,
     StatisticsComponent,
-    GameSummaryComponent, 
+    GameSummaryComponent,
+    LessonPlanDashboardComponent,
+    GamePageComponent, 
   ],
   imports: [
     BrowserModule,
