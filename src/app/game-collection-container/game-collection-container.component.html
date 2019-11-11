@@ -1,0 +1,13 @@
+<div class="dashboard-container " >
+        <h3>
+            {{gameCollectionTitle}}
+        </h3>
+        <div class="row">
+                <ng-container *ngFor="let item of gameCollectionItems; let i = index">
+        
+                        <small-action-card id="{{i}}" [gameCollectionItem]="item"></small-action-card>    
+                    
+                </ng-container>
+        </div>
+    
+    </div>

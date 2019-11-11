@@ -12,6 +12,8 @@ import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
 import { GameSummaryComponent } from './game-summary-bar/game-summary-bar.component';
 import { LessonPlanDashboardComponent } from './lesson-plan-dashboard/lesson-plan-dashboard.component';
 import { GamePageComponent } from './game-page/game-page.component';
+import { SmallActionCardComponent } from './small-action-card/small-action-card.component';
+import { GameCollectionContainerComponent } from './game-collection-container/game-collection-container.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,9 @@ import { GamePageComponent } from './game-page/game-page.component';
     StatisticsComponent,
     GameSummaryComponent,
     LessonPlanDashboardComponent,
-    GamePageComponent, 
+    GamePageComponent,
+    SmallActionCardComponent,
+    GameCollectionContainerComponent, 
   ],
   imports: [
     BrowserModule,
