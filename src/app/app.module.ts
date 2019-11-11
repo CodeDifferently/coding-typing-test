@@ -9,12 +9,14 @@ import { StatisticsComponent } from './statistics/statistics.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 
 import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
+import { DashboardComponent } from './dashboard/dashboard.component';
 @NgModule({
   declarations: [
     AppComponent,
     LargeActionCardComponent,
     CollectionContainerComponent,
-    StatisticsComponent
+    StatisticsComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
