@@ -8,17 +8,25 @@ import { GameCollectionItem } from '../game-collection-item';
 })
 export class GameCollectionContainerComponent implements OnInit {
 
-gameCollectionItem: GameCollectionItem = {
+ FirstItem: GameCollectionItem = {
     title: " 1 ",
     link: "somewebsite.com",
     background: "../assets/img/typingcode.jpg",
     locked:true, 
-    subtitle: "Sike Just Playing its okay",    
+    subtitle: "typing code",    
   };
+  
+ SecondtItem: GameCollectionItem = {
+  title: " 1 ",
+  link: "somewebsite.com",
+  background: "../assets/img/typingcode.jpg",
+  locked:true, 
+  subtitle: "typing code",    
+};
   
   @Input() gameCollectionTitle: String;
 
-  gameCollectionItems: Array<GameCollectionItem> = [this.gameCollectionItem];
+  gameCollectionItems: Array<GameCollectionItem> = [this.FirstItem, this.SecondtItem, this.FirstItem, this.FirstItem,this.FirstItem,this.FirstItem,this.FirstItem,this.FirstItem,this.FirstItem,this.FirstItem,this.FirstItem,this.FirstItem,];
   
 
   constructor() { }

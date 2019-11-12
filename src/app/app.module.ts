@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +16,7 @@ import { LessonPlanDashboardComponent } from './lesson-plan-dashboard/lesson-pla
 import { GamePageComponent } from './game-page/game-page.component';
 import { SmallActionCardComponent } from './small-action-card/small-action-card.component';
 import { GameCollectionContainerComponent } from './game-collection-container/game-collection-container.component';
+import { PlacementTestPopoverComponent } from './placement-test-popover/placement-test-popover.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,9 +27,12 @@ import { GameCollectionContainerComponent } from './game-collection-container/ga
     LessonPlanDashboardComponent,
     GamePageComponent,
     SmallActionCardComponent,
-    GameCollectionContainerComponent, 
+    GameCollectionContainerComponent,
+     PlacementTestPopoverComponent,
+    
   ],
   imports: [
+    NgbModule,
     BrowserModule,
     ProgressbarModule.forRoot(),
     NgCircleProgressModule.forRoot({
