@@ -8,7 +8,7 @@
         <div class="row">
                 <ng-container *ngFor="let item of gameCollectionItems; let i = index">
                         
-                 <small-action-card *ngIf="item.locked == false" id="{{i}}" [gameCollectionItem]="item"></small-action-card>    
+                 <small-action-card *ngIf="item.locked == true" id="{{i}}" [gameCollectionItem]="item"></small-action-card>    
                     
                 </ng-container>
         </div>
@@ -17,7 +17,7 @@
         <div class="row">
                         <ng-container *ngFor="let item of gameCollectionItems; let i = index">
                 
-                                <small-action-card *ngIf="item.locked == true" id="{{i}}" [gameCollectionItem]="item"></small-action-card>    
+                                <small-action-card *ngIf="item.locked == false" id="{{i}}" [gameCollectionItem]="item"></small-action-card>    
                             
                         </ng-container>
                 </div>

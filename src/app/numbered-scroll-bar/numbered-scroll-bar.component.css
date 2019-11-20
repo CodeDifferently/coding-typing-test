@@ -19,3 +19,39 @@ Scroll-indicator{
 
 }
 
+#Scroll-indicator ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+#Scroll-indicator li{
+    position: relative;
+    line-height: 36px;
+}
+
+#Scroll-indicator li.active:before{
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-50%,0);
+}
+
+#Scroll-indicator li.active a{
+    height: 44px;
+
+}
+
+#Scroll-indicator li:before{
+    content: attr(data-title);
+    position: absolute;
+    bottom: -5px;
+    left: calc(100% + 20px );
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1;
+    text-transform: lowercase;
+    opacity: 0;
+    visibility: hidden;
+    transform: left 0.25s cubic-bezier(0.455,0.33,0.515,0.955), opacity 0.25s
+
+}
