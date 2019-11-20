@@ -1,0 +1,21 @@
+html{
+    scroll-behavior: smooth;
+}
+
+Section{
+    height: 100vh;
+}
+
+Section:nth-child(2n){
+    color:white;
+    background-color:orange ;
+}
+
+Scroll-indicator{
+    position:fixed;
+    top: 50%;
+    left:5px;
+    transform: translate(0,-50%);
+
+}
+

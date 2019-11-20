@@ -5,5 +5,13 @@ small-action-card{
     padding-left: 15px;
     padding-right: 15px;
 }
+.dashboard-container {
+    outline: none;
+    background: transparent;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: none;
+    margin-bottom: 20px;
+}
 
     

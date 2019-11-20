@@ -1,5 +1,6 @@
 #mybutton{
     border-radius: 15px;
-    border: size 1px;
+    position:relative; 
+    left: 1000px;
     
 }

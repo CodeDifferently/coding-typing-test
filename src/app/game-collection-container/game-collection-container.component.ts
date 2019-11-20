@@ -12,7 +12,7 @@ export class GameCollectionContainerComponent implements OnInit {
     title: " 1 ",
     link: "somewebsite.com",
     background: "../assets/img/typingcode.jpg",
-    locked:true, 
+    locked:false, 
     subtitle: "typing code",    
   };
   
