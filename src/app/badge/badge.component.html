@@ -1,0 +1,21 @@
+<div *ngIf="badge.earned === true" class="badge">
+    <div class="column float-left">
+        <img src="{{badge.image}}">
+    </div>
+    <div><b>{{badge.title}}</b><br>
+        <p>
+            {{badge.description}}
+        </p>
+    </div>
+</div>
+
+<div *ngIf="badge.earned === false" class="badge unearned">
+    <div class="column float-left">
+        <img src="{{badge.image}}">
+    </div>
+    <div><b>{{badge.title}}</b><br>
+        <p>
+            {{badge.description}}
+        </p>
+    </div>
+</div>

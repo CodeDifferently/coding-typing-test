@@ -1,0 +1,25 @@
+.badge {
+    width: 47%;
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+border-width: 1px;
+        border-radius: 5px;
+        border-color: lightgray;
+        align-content: left;
+    }
+    h4,h5{
+        color: gray;
+    }
+    img{
+       height:100px;
+       width: 100px;
+       margin: 20px;
+    }
+    p {
+        white-space: normal;
+    }
+    
+     .unearned {
+        background-color: rgba(136,136,136, 0.03);
+    }

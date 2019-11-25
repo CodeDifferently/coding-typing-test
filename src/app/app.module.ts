@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,14 +10,24 @@ import { StatisticsComponent } from './statistics/statistics.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 
 import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
+import { LoginComponent } from './login/login.component';
+import { BadgesComponent } from './badges/badges.component';
+import { BadgeComponent } from './badge/badge.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
     LargeActionCardComponent,
     CollectionContainerComponent,
-    StatisticsComponent
+    StatisticsComponent,
+    LoginComponent,
+    BadgesComponent,
+    BadgeComponent
   ],
   imports: [
+    ReactiveFormsModule,
+    FormsModule,
     BrowserModule,
     ProgressbarModule.forRoot(),
     NgCircleProgressModule.forRoot({
@@ -28,6 +39,7 @@ import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
       innerStrokeColor: "#C7E596",
       animationDuration: 300,
       showSubtitle: false
+    
     }),
     AppRoutingModule
   ],

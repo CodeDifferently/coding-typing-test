@@ -1,0 +1,107 @@
+
+<br><h4>Badges</h4>
+
+<!-- -------------Earned Badges Section -------------------------------->
+<h5>Earned Badges</h5>
+<hr>
+<div class=container>
+        <!-- Badge 1 -->   
+        <ng-container *ngFor="let badge of badgesArray">
+                <badge class="earned" *ngIf = "badge.earned === true" [badge]=badge></badge>
+        </ng-container>
+    </div>
+<br><h5>Un-Earned Badges</h5>
+<hr>
+<div class=container>
+    <!-- Badge 1 -->   
+    <ng-container  *ngFor="let badge of badgesArray">
+            <badge *ngIf="badge.earned === false" [badge]=badge></badge>
+    </ng-container>
+</div>
+    <!-- <div class=badge1>
+            <div class="column float-left">
+                    <img src="assets/img/40FieryTypist.svg">
+            </div>
+    <div><b>Fast and Furious</b><br>
+    You have typed 40wpm for over 10 seconds. You've reached average typing speed! Now let's beat it.
+   </div>
+    </div>
+
+    <div class= badge2>
+            <div class="column float-left">
+                    <img src="assets/img/100KeyboardCrusher.svg">
+            </div>
+    <div><b>Keyboard Crusher</b><br>
+You've finished 100 attempts in one day. You're flying through the lessons! The next goal is 150 attempts!
+</div>
+    </div>
+
+    <div class=badge3>
+            <div class="column float-left">
+                    <img src="assets/img/30TheHeavyweight.svg">
+            </div>
+    <div><b>The Heavyweight</b><br>
+You are an endurance fiend!
+</div>
+    </div>
+    
+    <div class= badge4>
+            <div class="column float-left">
+                    <img src="assets/img/60Marathoner.svg">
+            </div>
+    <div><b>Steadfast Student</b><br>
+You've practiced for 60 minutes in one session. Your next goal is 120 minutes.
+    </div>
+</div> -->
+
+<!-- ---------------------------------- Un-Earned Badges Section ----------------------------------------- -->
+<!-- <br><h5>Un-Earned Badges</h5>
+<hr> -->
+
+<!-- <div class= container>
+        <div class=badge1>
+                <div class="column float-left">
+                    <img src="assets/img/50FieryTypistMute.svg">
+                </div>
+            <div class="column">
+                <b>Fast and Furious</b><br>
+                This badge has a need for speed. To earn it, type 50wpm for over 10 seconds.
+            </div>
+        </div>
+
+        <div class= badge2>
+                <div class="column float-left">
+                        <img src="assets/img/150KeyboardCrusherMute.svg">
+                </div>
+                <div><b>Keyboard Crusher</b><br>
+                150 attempts in one day. Go get 'em!
+                </div>
+        </div>
+            
+        <div class=badge3>
+                <div class="column float-left">
+                        <img src="assets/img/WeekendHeroMute.svg">
+                </div>
+               <div><b>Weekend Hero</b><br>
+                Weekends are a magical time here at TypingClub. Practice typing on Saturday or Sunday, and who knows what you may find.
+                </div>
+        </div>
+        <div class= badge4>
+                <div class="column float-left">
+                        <img src="assets/img/120MarathonerMute.svg">
+                </div>
+               <div> <b>Tireless Typist</b><br>
+                Make sure to take a break from the computer if you earn this hefty badge!
+                </div>
+        </div> 
+        <div class=badge5>
+                <div class="column float-left">
+                        <img src="assets/img/5DayStreakMute.svg">
+                </div>
+                <div><b>5 Day Streak</b><br>
+                A lot can happen in five days, especially in the world of TypingClub. Practice typing five days in a row to earn this sweet new badge.
+                </div>
+        </div>
+</div> -->
+
+

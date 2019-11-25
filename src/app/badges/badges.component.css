@@ -1,0 +1,30 @@
+.container{
+    /* display: flex; */
+    align-content: center;
+}
+.badge {
+flex-wrap: inherit;
+}
+.badge{
+width: 50%;
+padding: 10px;
+margin: 10px;
+}
+.badge{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: lightgray;
+    /* align-content: left; */
+}
+h4,h5{
+    color: gray;
+}
+img{
+   height:100px;
+   width: 100px;
+   margin: 20px;
+}
+ .false{
+    background-color: lightgrey;
+}
