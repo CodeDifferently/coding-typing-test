@@ -16,7 +16,7 @@ import { GamePageComponent } from './game-page/game-page.component';
 import { SmallActionCardComponent } from './small-action-card/small-action-card.component';
 import { GameCollectionContainerComponent } from './game-collection-container/game-collection-container.component';
 import { PlacementTestPopoverComponent } from './placement-test-popover/placement-test-popover.component';
-import { NumberedScrollBarComponent } from './numbered-scroll-bar/numbered-scroll-bar.component';
+import { ScrollBarComponent } from './scroll-bar/scroll-bar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +29,7 @@ import { NumberedScrollBarComponent } from './numbered-scroll-bar/numbered-scrol
     SmallActionCardComponent,
     GameCollectionContainerComponent,
      PlacementTestPopoverComponent,
-     NumberedScrollBarComponent,
+     ScrollBarComponent,
     
   ],
   imports: [

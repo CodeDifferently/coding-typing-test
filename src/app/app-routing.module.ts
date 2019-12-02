@@ -5,15 +5,16 @@ import { GameSummaryComponent } from './game-summary-bar/game-summary-bar.compon
 import { LessonPlanDashboardComponent }  from './lesson-plan-dashboard/lesson-plan-dashboard.component'
 import { GamePageComponent } from './game-page/game-page.component';
 import { PlacementTestPopoverComponent }  from './placement-test-popover/placement-test-popover.component'
-import { NumberedScrollBarComponent } from './numbered-scroll-bar/numbered-scroll-bar.component';
 import { GameCollectionContainerComponent } from './game-collection-container/game-collection-container.component';
+import { ScrollBarComponent } from './scroll-bar/scroll-bar.component';
 
 const routes: Routes = [
   { path: 'game-summary', component: GameSummaryComponent  },
   { path: 'lesson-plan-dashboard', component: LessonPlanDashboardComponent  },
   { path: 'game-page', component: GamePageComponent  },
+  { path: 'scroll-bar', component: ScrollBarComponent  },
+
   { path: 'placement-test-popover', component: PlacementTestPopoverComponent  },
-  { path: 'Numbered-Scroll-Bar', component: NumberedScrollBarComponent  },
   { path: 'game-collection-container', component: GameCollectionContainerComponent  },
 
 
